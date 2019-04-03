@@ -3,9 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloTriangle", "HelloTriangle\HelloTriangle.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.1HelloTriangle", "HelloTriangle\HelloTriangle.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloTriangleIndexed", "HelloTriangleIndexed\HelloTriangleIndexed.vcxproj", "{D4251EA2-C6E5-448A-8F53-A2DFB1274BC2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.2HelloTriangleIndexed", "HelloTriangleIndexed\HelloTriangleIndexed.vcxproj", "{D4251EA2-C6E5-448A-8F53-A2DFB1274BC2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.1ShadersUniform", "3.ShadersUniform\3.ShadersUniform.vcxproj", "{46E52BCB-BE2A-4D38-BCD5-5CDB0F4C7E02}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.2ShadersInterpolation", "3.2ShadersInterpolation\3.2ShadersInterpolation.vcxproj", "{0EA5E511-3FC6-46C3-A962-62A2EE087624}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.3ShadersClass", "3.3ShadersClass\3.3ShadersClass.vcxproj", "{D550A4F2-9746-42C7-9AB4-927E504C7226}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.1textures", "4.1textures\4.1textures.vcxproj", "{D1C76893-F65C-4DA1-AC0D-A249FA9E3D99}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.2TexturesCombined", "4.2TexturesCombined\4.2TexturesCombined.vcxproj", "{DE78FC1E-7BD5-45DC-988D-55B2D1DC3630}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +31,26 @@ Global
 		{D4251EA2-C6E5-448A-8F53-A2DFB1274BC2}.Debug|x64.Build.0 = Debug|x64
 		{D4251EA2-C6E5-448A-8F53-A2DFB1274BC2}.Release|x64.ActiveCfg = Release|x64
 		{D4251EA2-C6E5-448A-8F53-A2DFB1274BC2}.Release|x64.Build.0 = Release|x64
+		{46E52BCB-BE2A-4D38-BCD5-5CDB0F4C7E02}.Debug|x64.ActiveCfg = Debug|x64
+		{46E52BCB-BE2A-4D38-BCD5-5CDB0F4C7E02}.Debug|x64.Build.0 = Debug|x64
+		{46E52BCB-BE2A-4D38-BCD5-5CDB0F4C7E02}.Release|x64.ActiveCfg = Release|x64
+		{46E52BCB-BE2A-4D38-BCD5-5CDB0F4C7E02}.Release|x64.Build.0 = Release|x64
+		{0EA5E511-3FC6-46C3-A962-62A2EE087624}.Debug|x64.ActiveCfg = Debug|x64
+		{0EA5E511-3FC6-46C3-A962-62A2EE087624}.Debug|x64.Build.0 = Debug|x64
+		{0EA5E511-3FC6-46C3-A962-62A2EE087624}.Release|x64.ActiveCfg = Release|x64
+		{0EA5E511-3FC6-46C3-A962-62A2EE087624}.Release|x64.Build.0 = Release|x64
+		{D550A4F2-9746-42C7-9AB4-927E504C7226}.Debug|x64.ActiveCfg = Debug|x64
+		{D550A4F2-9746-42C7-9AB4-927E504C7226}.Debug|x64.Build.0 = Debug|x64
+		{D550A4F2-9746-42C7-9AB4-927E504C7226}.Release|x64.ActiveCfg = Release|x64
+		{D550A4F2-9746-42C7-9AB4-927E504C7226}.Release|x64.Build.0 = Release|x64
+		{D1C76893-F65C-4DA1-AC0D-A249FA9E3D99}.Debug|x64.ActiveCfg = Debug|x64
+		{D1C76893-F65C-4DA1-AC0D-A249FA9E3D99}.Debug|x64.Build.0 = Debug|x64
+		{D1C76893-F65C-4DA1-AC0D-A249FA9E3D99}.Release|x64.ActiveCfg = Release|x64
+		{D1C76893-F65C-4DA1-AC0D-A249FA9E3D99}.Release|x64.Build.0 = Release|x64
+		{DE78FC1E-7BD5-45DC-988D-55B2D1DC3630}.Debug|x64.ActiveCfg = Debug|x64
+		{DE78FC1E-7BD5-45DC-988D-55B2D1DC3630}.Debug|x64.Build.0 = Debug|x64
+		{DE78FC1E-7BD5-45DC-988D-55B2D1DC3630}.Release|x64.ActiveCfg = Release|x64
+		{DE78FC1E-7BD5-45DC-988D-55B2D1DC3630}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
